@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="portfolio.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="portolio.js" defer></script>
+    <title>My portfolio website</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="Images/my logo.png" alt="my logo" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"> </span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__items"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__items">
+            <a href="#service" class="nav__link">My services</a>
+          </li>
+          <li class="nav__items">
+            <a href="#work" class="nav__link">My work</a>
+          </li>
+          <li class="nav__items">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--Introduction-->
+
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, My name is <strong>Olayinka Shanu</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Front-end dev</p>
+      <img src="/Images/Stand-in.png" alt="my own pic" class="intro__img" />
+    </section>
+
+    <!--My services-->
+    <section class="my-services" id="service">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Web Developer</h3>
+          <p>
+            With my expertise as a top-notch web developer, I help clients
+            elevate their digital presence. From stunning designs to flawless
+            functionality, I deliver websites that captivate and engage. With
+            clean code and optimization techniques, your site will soar with
+            lightning-fast speeds and superior performance.
+          </p>
+        </div>
+        <!--service end-->
+        <div class="service">
+          <h3>Logo Designer</h3>
+          <p>
+            Experience the power of exceptional branding with my portfolio as a
+            logo designer. I craft visually striking logos that encapsulate your
+            brand's identity and make a lasting impact. With a keen eye for
+            design principles, attention to detail, and a passion for
+            creativity, I deliver logos that resonate with your target audience.
+            Trust my expertise to elevate your brand and create a visual
+            identity that sets you apart. Choose me as your logo designer and
+            unlock the potential for a remarkable brand presence.
+          </p>
+        </div>
+        <!--service end-->
+        <div class="service">
+          <h3>Third Service</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+            in, consectetur voluptatum quas veritatis asperiores atque expedita
+            deleniti voluptatibus eius consequuntur tenetur blanditiis sed.
+          </p>
+        </div>
+        <!--service end-->
+      </div>
+      <!--serviceS close-->
+      <a href="#work" class="btn">My work</a>
+    </section>
+    <!--About me-->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Designer and Web Developer
+      </p>
+      <img src="/Images/Stand-in.png" alt="tbd" />
+      <div class="about--me__body">
+        <p>
+          I am a skilled and passionate frontend developer who is eager to take
+          on my first engineering role. With my expertise in HTML, CSS, and
+          JavaScript, I have a strong understanding of various frameworks and
+          libraries, making me a versatile developer who can adapt to different
+          projects and teams. In addition to my technical skills, I am an
+          excellent communicator and collaborator, valuing teamwork and always
+          striving to learn from my peers. I am detail-oriented and understand
+          the importance of creating user-friendly and visually appealing
+          interfaces that exceed users' expectations. With my passion for
+          creating high-quality, responsive, and accessible websites, I am
+          excited to apply my skills and knowledge to contribute to a team and
+          take on new challenges. I am ready to bring my expertise to a dynamic
+          and innovative company and grow as a frontend engineer.
+        </p>
+      </div>
+    </section>
+    <!--My work-->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
+
+      <div class="portfolio">
+        <a href="" class="portfolio__item">
+          <img src="/Images/Stand-in.png" alt="tbd" class="portfolio__img" />
+        </a>
+        <a href="portfolio__item" class="portfolio__img">
+          <img src="/Images/Stand-in.png" alt="tbd" />
+        </a>
+        <a href="portfolio__item" class="portfolio__img">
+          <img src="/Images/Stand-in.png" alt="tbd" />
+        </a>
+        <a href="portfolio__item" class="portfolio__img">
+          <img src="/Images/Stand-in.png" alt="tbd" />
+        </a>
+        <a href="portfolio__item" class="portfolio__img">
+          <img src="/Images/Stand-in.png" alt="tbd" />
+        </a>
+        <a href="portfolio__item" class="portfolio__img">
+          <img src="/Images/Stand-in.png" alt="tbd" />
+        </a>
+      </div>
+    </section>
+    <!--footer-->
+    <footer class="footer">
+      <a href="mailto:ademayowa$@gmail.com">ademayowa4@gmail.com</a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a href="http://facebook.com" class="social-list__link"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a href="http://twitter.com" class="social-list__link"
+            ><i class="fa-brands fa-square-twitter"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a href="http://gmail.com" class="social-list__link"
+            ><i class="fa-sharp fa-solid fa-envelope"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a href="http://linkedin.com" class="social-list__link"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
