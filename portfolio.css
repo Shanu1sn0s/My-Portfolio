@@ -13,8 +13,8 @@
   --fw-bold: 900;
 
   --clr-light: #fff;
-  --clr-dark: #303030;
-  --clr-accent: #16e0bd;
+  --clr-dark: #0e0e0e;
+  --clr-accent: rgb(78, 161, 238);
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -308,6 +308,7 @@ right: 0;
 }
 .service p{
   max-width: 400px;
+  margin-right: 1em;
 }
 @media (min-width: 800px) {
   .services {
